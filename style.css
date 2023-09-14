@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*mine frameworcks*/
+
+html,body{
+    height: 100%;
+}
+
+max-widht{
+    width: 100%;
+    min-height: 100vh;
+}
+.bg{
+    background:url('imagi/bg.png') no-repeat ;
+    background-size:cover ;
+    height:auto;
+  
+}
+
+.container{
+    max-width: 1330px;
+    margin: 0 auto ;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+/*tamanho da fonte*/
+.text-gd{
+    font-size: 64px;
+}
+.text-md{
+    font-size: 36px;
+}
+.text-pq{
+    font-size: 14px;
+}
+.text-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+/*cor do texto*/
+
